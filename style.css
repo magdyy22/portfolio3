@@ -1,0 +1,314 @@
+/* globale rules */
+html{
+    scroll-behavior: smooth;
+}
+/* start home */
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #00000066;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.navbar .nav-logo{
+    float: left;
+    width: 15%;
+}
+.navbar .nav-logo img{
+    width: 100%;
+}
+.navbar .nav-links{
+    float: right;
+    margin-right: 60px;
+}
+.navbar .nav-links ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+.navbar .nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.clear{
+    clear: both;
+}
+.image{
+    background-image: url(images/bakery.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    margin-top: 0;
+    position: relative;
+}
+.image .text{
+    padding-top: 200px;
+    text-align: center;
+}
+.image .text .paragraph1{
+    color: white;
+    font-size: 70px;
+    line-height: 1.5;
+    margin: auto;
+}
+.image .text .paragraph1 span{
+    display: block;
+    font-size: 20px;
+}
+.image .text .paragraph2{
+    color: white;
+    font-size: 25px;
+    line-height: 1.7;
+}
+.image .text .learn{
+   background-color: #8E7754;
+   border: none; 
+}
+.image .text .contact{
+    background-color: #ffffff00;
+    border: 2px solid white;
+}
+.image .text .btn{
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+.image .text .learn a{
+    color: white;
+    text-decoration: none;
+}
+.image .text .contact a{
+    color: white;
+    text-decoration: none;
+}
+/* end home */
+/* start who we are */
+.container{
+    width: 90%;
+    padding: 70px;
+    margin: auto;
+}
+.container .image2{
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+.container .image2 img{
+    width: 90%;
+}
+.container .text2{
+    display: inline-block;
+    width: 40%;
+    padding: 4%;
+    vertical-align: middle;
+}
+.container .text2 h2{
+    color:#303030;
+    font-size: 32px;
+    font-weight: 400;
+}
+.container .text2 p{
+    color: #686868;
+    font-size: 17px;
+    line-height: 1.7;
+}
+.container .list{
+    display: inline;
+}
+.container .list ul{
+    display: inline-block;
+    padding-left: inherit;
+}
+.container .list ul li{
+    list-style-type: none;
+
+}
+.container .list ul li .icon{
+    width: 17%;
+    height: 54px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid black;
+    border-radius: 50%;
+    border-color: #DBDADA;
+}
+
+.container .list .span{
+    display: inline-block;
+    vertical-align: middle;
+}
+/* end who we are */
+/* start our location */
+.our-location {
+    background-color: #F8F8F8;
+    height: 300px;
+    padding: 13%;
+}
+.our-location .image3{
+    width: 45%;
+    float: right;
+}
+.our-location .image3 img{
+    width: 100%;
+}
+.our-location .box{
+    width: 55%;
+    float: left;
+}
+.our-location .box h2{
+    color: #303030;
+    font-size: 32px;
+    font-weight: 400;
+}
+.our-location .box p{
+    color: #686868;
+    line-height: 1.8;
+    width: 80%;
+}
+/* end our location */
+/* start our baking */
+.container1{
+    width: 100%;
+    display: inline-block;
+}
+.container1 .text3{
+    text-align: center;
+}
+.container1 .text3 h3{
+    color: #303030;
+    font-size: 30px;
+    font-weight: 400;
+}
+.container1 .text3 p{
+    color: #686868;
+}
+.container1 .image4{
+    width: 30%;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 30px;
+}
+.container1 .image4 img{
+    width: 100%;
+    padding-left: 40px;
+}
+.container1 .image4 h4{
+    padding-left: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+.container1 .image4 p{
+    padding-left: 40px;
+    text-align: center;
+    color: #686868;
+    line-height: 1.7;
+}
+/* end our baking */
+/* start contact */
+.contact1{
+    width: 100%;
+    background-color: #F8F8F8;
+}
+.contact1 .information{
+    width: 45%;
+    display: inline-block;
+    margin: 10%;
+}
+.contact1 .information h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+.contact1 .information p{
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 2;
+    color: #686868;
+}
+.contact1 .information ul{
+    padding-left: inherit;
+}
+.contact1 .information ul li{
+    width: 100%;
+    display: inline-block;
+}
+.contact1 .information ul li img{
+    width: 8%;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #686868;
+    border-radius: 50%;
+    margin: 10px;
+}
+.contact1 .image5{
+    display: inline-block;
+    width: 30%;
+}
+.contact1 .image5 .map{
+    display: inline-block;
+    width: auto;
+}
+/* end contact */
+/* start footer */
+.footer{
+    width: 100%;
+    float: left;
+    background-color: #403D38;
+}
+.footer .box2{
+    padding-left: 45px;
+    width: 20%;
+    float: left;
+    padding-top: 30px;
+}
+.footer .box2 h4{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+.footer .box2 p{
+    color: #999696;
+    line-height: 2;
+}
+.footer .box2 ul{
+    width: 100%;
+    display: inline-block;
+}
+.footer .box2 ul li{
+    width: 100%;
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer .box2 ul li:not(:last-child){
+    border-bottom: 1px solid #99969636;
+    padding-bottom: 15px;
+}
+.footer .box2 ul li img{
+    width: 10%;
+    vertical-align: middle;
+}
+.footer .box2 ul li span{
+    color: #999696;
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+.bakery{
+    width: 100%;
+    background-color: #353330;
+    text-align: center;
+}
+.bakery p{
+    color: #999696;
+}
+.bakery a img{
+    width: 3%;
+    border: 1px solid #403D38;
+    border-radius: 50%;
+    background-color: #403D38;
+}
+/* end footer */
